@@ -8,6 +8,7 @@ public class Product {
 
 	private String _title;
 	private double _price;
+	private String lugarprodencia;
 
 	/**
 	 * Constructs a Product.
@@ -57,9 +58,10 @@ public class Product {
 		
 	}
 	
-	public String Caracteristicas(String nombre, double precio){
+	public String Caracteristicas(String nombre, double precio, String lugarprocedencia){
 		this._price = precio;
 		this._title = nombre;
+		this.lugarprodemcia=lugarprodemcia;
 		return "Nombre: " + nombre + ". Precio: " + precio;
 	}
 }
