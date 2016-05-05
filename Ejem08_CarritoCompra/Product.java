@@ -54,5 +54,12 @@ public class Product {
 		
 		System.out.println("Que producto hemos cogido");
 	
+		
+	}
+	
+	public String Caracteristicas(String nombre, double precio){
+		this._price = precio;
+		this._title = nombre;
+		return "Nombre: " + nombre + ". Precio: " + precio;
 	}
 }
