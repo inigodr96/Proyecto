@@ -49,4 +49,10 @@ public class Product {
 
 		return false;
 	}
+	
+	public void tipoProducto(){
+		
+		System.out.println("Que producto hemos cogido");
+		return tipoProducto;
+	}
 }
